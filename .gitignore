@@ -1,0 +1,27 @@
+# Python
+*.egg-info/
+.venv*
+.tox/
+
+# Testing
+coverage/
+.coverage
+
+# Built assets
+build_info.json
+*.css.d.ts
+*.scss.d.ts
+
+#
+# Yarn
+#
+
+# If you're not using Zero-Installs:
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
+
+# Nix
+result
+.direnv
